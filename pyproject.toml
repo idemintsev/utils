@@ -1,0 +1,17 @@
+[project]
+name = "my_utils"
+version = "0.1.0"
+requires-python = "==3.13.*"
+
+dependencies = [
+    # Async HTTP
+    "aiohttp==3.13.*",
+    # Dataclasses
+    "attrs==26.1.*",
+    # JSON (de)serialization
+    "orjson==3.11.*",
+    # CLI
+    "click==8.3.*",
+    # Event loop
+    "uvloop==0.22.*",
+]
